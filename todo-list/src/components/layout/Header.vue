@@ -1,5 +1,4 @@
-  
-<template>
+ <template>
   <header class="header">
     <h1>TodoList</h1>
      <div id="nav">
@@ -9,15 +8,17 @@
   </header>
 </template>
 
+
 <script>
 export default {
   name: "Header"
 }
 </script>
 
+
 <style scoped>
   .header {
-    background: #333;
+    background: rgba(51, 51, 51, 0.952);
     color: #fff;
     text-align: center;
     padding: 10px;
